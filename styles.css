@@ -1,0 +1,137 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  color: #1E5464;
+}
+
+header {
+  margin: 10% 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header img {
+  width: 50%;
+}
+
+header h1 {
+  margin: 5% 0 0 0;
+  font-size: 28px;
+}
+
+.description {
+  background-color: #F2F2F2;
+  padding: 10%;
+  margin: 10% auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+}
+
+.description p {
+  text-align: center;
+}
+
+.description h2 {
+  margin: 10% 0;
+  text-align: center;
+}
+
+.description button {
+  background-color: #E51A22;
+  border: none;
+  padding: 5% 10%;
+  border-radius: 20px;
+  color: white;
+}
+
+.write img {
+  color: #1E5464;
+  width: 60%;
+  margin: 5% 0;
+}
+
+.write div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.write div .timer {
+  margin: 5% 0 0 0;
+  width: 100%;
+  height: 20px;
+  background-color: #1E5464;
+  border-radius: 10px;
+}
+
+.write input {
+  margin: 10% 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.reflect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.active {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

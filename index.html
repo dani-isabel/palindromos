@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindromos</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://parqueexplora.org/sites/default/files/Favicon_E.png" type="image/png">
+</head>
+<body>
+    <header>
+        <img src="https://sistemas-expertos.com/sites/default/files/parque-explora.png" alt="logo">
+        <h1>Palindromos</h1>
+    </header>
+    <section id="description" class="description">
+        <p>Los palindromos son palabras u oraciones reflejo. Es decir, que se leen igual en un sentido que en el otro</p>
+        <h2>¡Animate a escribir uno!</h2>
+        <button id="start">Iniciar</button>
+    </section>
+    <section id="write" class="description write hide">
+        <div>
+            <img class="blue" src="./assets/clock.svg" alt="Timer">
+            <div id="timer" class="timer">
+            </div>
+        </div>
+        <input id="input" type="text" placeholder="Escribe aquí el palindromo">
+        <button id="finish">Terminar</button>
+    </section>
+    <section id="palindromo" class=" palindromos hide">
+        <div id="initial"></div>
+        <div id="reflect" class="reflect"></div>
+    </section>
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
